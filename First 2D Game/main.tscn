@@ -54,3 +54,4 @@ stream = ExtResource("5_xbx8u")
 stream = ExtResource("6_yj50b")
 
 [connection signal="hit" from="Player" to="." method="game_over"]
+[connection signal="start_game" from="HUD" to="." method="new_game"]
