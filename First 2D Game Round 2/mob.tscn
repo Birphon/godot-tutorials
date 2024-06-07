@@ -51,6 +51,7 @@ height = 98.0
 [node name="mob" type="RigidBody2D" groups=["mobs"]]
 position = Vector2(248, 308)
 collision_mask = 0
+gravity_scale = 0.0
 script = ExtResource("1_gu00j")
 metadata/_edit_group_ = true
 

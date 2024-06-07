@@ -40,6 +40,7 @@ func _on_start_timer_timeout():
 func _on_score_timer_timeout():
 	score += 1
 	print(score)
+	$HUD.update_score(score) # Just add the updater here LOL
 
 func _on_score_tester_pressed(): # This is a button 
 	score += 1
